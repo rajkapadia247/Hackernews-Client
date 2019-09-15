@@ -161,7 +161,7 @@ class App extends Component {
         </div>
         { error
           ? <div className="interactions">
-            <p>Something went wrong.</p>
+            <p>Something is not working.</p>
           </div>
           : <Table
             list={list}
